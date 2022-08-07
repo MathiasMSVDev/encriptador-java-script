@@ -134,7 +134,7 @@ body {
 }
 
 .sin-mensaje p {
-    width: 250px;
+    /* width: 250px; */
     height: 48px;
     font-family: 'Inter';
     font-style: normal;
@@ -209,9 +209,11 @@ body {
     border-radius: 25px !important;
     width: 400px !important;
     height: auto !important;
+    font-family: 'Inter' !important;
+    font-style: normal !important;
 }
 
-.swal2-confirm {
+/* .swal2-confirm {
     border-radius: 25px !important;
     background: green !important;
     width: 250px !important;
@@ -219,9 +221,9 @@ body {
 
 .swal2-confirm:focus {
     box-shadow: none !important;
-}
+} */
 
-.swal2-cancel {
+/* .swal2-cancel {
     border-radius: 25px !important;
     background: #DF4D44 !important;
     width: 250px !important;
@@ -229,9 +231,9 @@ body {
 
 .swal2-cancel:focus {
     box-shadow: none !important;
-}
+} */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
     .card {
         width: 100%;
         border-radius: 0px;
@@ -245,8 +247,8 @@ body {
     }
 
     .texto {
-        width: auto;
-        height: 350px;
+        width: 363px;
+        height: 345px;
         padding: 0px;
         margin-top: 20px;
     }
@@ -270,6 +272,7 @@ body {
 
     .resultado {
         height: auto;
+        width: 363px;
     }
 
     .sin-mensaje {
@@ -282,7 +285,7 @@ body {
     }
 
     .sin-mensaje p {
-        width: 200px;
+        width: 250px;
     }
 
     .texto_final {
@@ -294,7 +297,7 @@ body {
     }
 
     .btn-copiar {
-        width: 279px;
+        width: 300px;
         height: 67px;
         margin-bottom: 20px;
     }
@@ -304,5 +307,112 @@ body {
         margin-left: 50px;
         width: 70%;
         height: auto;
+    }
+
+    .btn-encriptar, .btn-desencriptar {
+        width: 363px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        width: 100%;
+        border-radius: 0px;
+        margin-top: 0px !important;
+    }
+
+    .texto,
+    .info,
+    .botones {
+        margin-left: 0px;
+    }
+
+    .texto {
+        width: 345px;
+        height: 345px;
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .info {
+        width: 350px;
+        margin-bottom: 30px;
+    }
+
+    .logo {
+        margin-left: -50px;
+    }
+
+    .card-body div {
+        gap: 1.5rem;
+    }
+
+    .col-4 {
+        width: 95%;
+    }
+
+    .resultado {
+        height: auto;
+        width: 345px;
+    }
+
+    .sin-mensaje {
+        padding: 24px 0px;
+        gap: 0px !important;
+    }
+
+    .sin-mensaje img {
+        display: none;
+    }
+
+    .sin-mensaje p {
+        width: 250px;
+    }
+
+    .texto_final {
+        width: 279px;
+        height: auto;
+        font-size: 24px;
+        line-height: 150%;
+        color: #495057;
+    }
+
+    .btn-copiar {
+        width: 300px;
+        height: 67px;
+        margin-bottom: 20px;
+    }
+
+    .toast {
+        margin-top: 10px;
+        margin-left: 50px;
+        width: 70%;
+        height: auto;
+    }
+
+    .btn-encriptar, .btn-desencriptar {
+        width: 345px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        width: 378px;
+    }
+
+    .texto {
+        width: 320px;
+    }
+
+    .btn-encriptar, .btn-desencriptar {
+        width: 320px;
+    }
+
+    .btn-copiar {
+        width: 250px;
+    }
+
+    .resultado {
+        width: 320px;
     }
 }

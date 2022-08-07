@@ -35,11 +35,12 @@ function encriptar() {
                 icon: 'error',
                 title: 'Upss...',
                 text: 'Solo letras minusculas, sin acentos y sin caracteres especiales',
-                allowEnterKey: false,
-                showCancelButton: true,
-                cancelButtonText: 'OK',
+                // showCancelButton: true,
+                // cancelButtonText: 'OK',
                 showConfirmButton: false,
-            })
+                showCloseButton: true,
+                allowEnterKey: false,
+            });
         }
     }
 }
@@ -64,11 +65,12 @@ function desencriptar() {
                 icon: 'error',
                 title: 'Upss...',
                 text: 'Solo letras minusculas, sin acentos y sin caracteres especiales',
-                allowEnterKey: false,
-                showCancelButton: true,
-                cancelButtonText: 'OK',
+                // showCancelButton: true,
+                // cancelButtonText: 'OK',
                 showConfirmButton: false,
-            })
+                showCloseButton: true,
+                allowEnterKey: false,
+            });
         }
     }
 }
@@ -83,6 +85,8 @@ function copiar() {
     Swal.fire({
         icon: 'success',
         text: 'Texto copiado al portapapeles',
+        showConfirmButton: false,
+        showCloseButton: true,
         allowEnterKey: false,
-    })
+    });
 }
