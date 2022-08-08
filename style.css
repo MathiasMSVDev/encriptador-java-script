@@ -134,7 +134,6 @@ body {
 }
 
 .sin-mensaje p {
-    /* width: 250px; */
     height: 48px;
     font-family: 'Inter';
     font-style: normal;
@@ -233,6 +232,930 @@ body {
     box-shadow: none !important;
 } */
 
+@media screen and (max-width: 1500px) {
+    .logo {
+        margin-left: -20px;
+    }
+    
+    .card {
+        margin-top: 48px !important;
+        max-width: 1500px !important;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .botones {
+        margin-left: 0px;
+        display: flex !important;
+    }
+
+    .btn-encriptar {
+        width: 50%;
+    }
+
+    .btn-encriptar p {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 50%;
+    }
+
+    .btn-desencriptar p {
+        width: 100%;
+    }
+
+    .btn-copiar {
+        margin-bottom: 20px;
+    }
+
+    .btn-copiar p {
+        width: 100%;
+    }
+
+    .sin-mensaje {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .sin-mensaje img {
+        display: block;
+    }
+
+    .texto_final {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .logo {
+        margin-left: -20px;
+    }
+    
+    .card {
+        margin-top: 0px !important;
+        max-width: 1300px !important;
+    }
+
+    .card-body div {
+        gap: 1.5rem;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .botones {
+        margin-left: 0px;
+        display: flex !important;
+    }
+
+    .btn-encriptar {
+        width: 50%;
+    }
+
+    .btn-encriptar p {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 50%;
+    }
+
+    .btn-desencriptar p {
+        width: 100%;
+    }
+
+    .btn-copiar {
+        margin-bottom: 20px;
+    }
+
+    .btn-copiar p {
+        width: 100%;
+    }
+
+    .resultado {
+        height: auto;
+    }
+
+    .sin-mensaje {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .sin-mensaje img {
+        display: none;
+    }
+
+    .texto_final {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .logo {
+        margin-left: -20px;
+    }
+    
+    .card {
+        margin-top: 0px !important;
+        max-width: 1000px !important;
+    }
+
+    .card-body div {
+        gap: 1.5rem;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .botones {
+        margin-left: 0px;
+        display: flex !important;
+    }
+
+    .btn-encriptar {
+        width: 50%;
+    }
+
+    .btn-encriptar p {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 50%;
+    }
+
+    .btn-desencriptar p {
+        width: 100%;
+    }
+
+    .btn-copiar {
+        margin-bottom: 20px;
+    }
+
+    .btn-copiar p {
+        width: 100%;
+    }
+
+    .resultado {
+        height: auto;
+    }
+
+    .sin-mensaje {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .sin-mensaje img {
+        display: none;
+    }
+
+    .texto_final {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .logo {
+        margin-left: -20px;
+    }
+    
+    .card {
+        margin-top: 0px !important;
+        max-width: 900px !important;
+    }
+
+    .card-body div {
+        gap: 1.5rem;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .botones {
+        margin-left: 0px;
+        display: flex !important;
+    }
+
+    .btn-encriptar {
+        width: 50%;
+    }
+
+    .btn-encriptar p {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 50%;
+    }
+
+    .btn-desencriptar p {
+        width: 100%;
+    }
+
+    .btn-copiar {
+        margin-bottom: 20px;
+    }
+
+    .btn-copiar p {
+        width: 100%;
+    }
+
+    .resultado {
+        height: auto;
+    }
+
+    .sin-mensaje {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .sin-mensaje img {
+        display: none;
+    }
+
+    .texto_final {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+        margin-left: -20px;
+    }
+    
+    .card {
+        margin-top: 0px !important;
+        max-width: 800px !important;
+    }
+
+    .card-body div {
+        gap: 1.5rem;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .botones {
+        margin-left: 0px;
+        display: flex !important;
+    }
+
+    .btn-encriptar {
+        width: 50%;
+    }
+
+    .btn-encriptar p {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 50%;
+    }
+
+    .btn-desencriptar p {
+        width: 100%;
+    }
+
+    .btn-copiar {
+        margin-bottom: 20px;
+    }
+
+    .btn-copiar p {
+        width: 100%;
+    }
+
+    .resultado {
+        height: auto;
+    }
+
+    .sin-mensaje {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .sin-mensaje img {
+        display: none;
+    }
+
+    .texto_final {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .logo {
+        margin-left: -20px;
+    }
+    
+    .card {
+        margin-top: 0px !important;
+        max-width: 750px !important;
+    }
+
+    .card-body div {
+        gap: 1.5rem;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .botones {
+        margin-left: 0px;
+        display: flex !important;
+    }
+
+    .btn-encriptar {
+        width: 50%;
+    }
+
+    .btn-encriptar p {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 50%;
+    }
+
+    .btn-desencriptar p {
+        width: 100%;
+    }
+
+    .btn-copiar {
+        margin-bottom: 20px;
+    }
+
+    .btn-copiar p {
+        width: 100%;
+    }
+
+    .resultado {
+        height: auto;
+    }
+
+    .sin-mensaje {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .sin-mensaje img {
+        display: none;
+    }
+
+    .texto_final {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .logo {
+        margin-left: -20px;
+    }
+    
+    .card {
+        margin-top: 0px !important;
+        max-width: 700px !important;
+    }
+
+    .card-body div {
+        gap: 1.5rem;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .botones {
+        margin-left: 0px;
+        display: flex !important;
+    }
+
+    .btn-encriptar {
+        width: 50%;
+    }
+
+    .btn-encriptar p {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 50%;
+    }
+
+    .btn-desencriptar p {
+        width: 100%;
+    }
+
+    .btn-copiar {
+        margin-bottom: 20px;
+    }
+
+    .btn-copiar p {
+        width: 100%;
+    }
+
+    .resultado {
+        height: auto;
+    }
+
+    .sin-mensaje {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .sin-mensaje img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .logo {
+        margin-left: -20px;
+    }
+    
+    .card {
+        margin-top: 0px !important;
+    }
+
+    .card-body div {
+        gap: 1.5rem;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .botones {
+        margin-left: 0px;
+        display: grid !important;
+    }
+
+    .btn-encriptar {
+        width: 100%;
+    }
+
+    .btn-encriptar p {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 100%;
+    }
+
+    .btn-desencriptar p {
+        width: 100%;
+    }
+
+    .btn-copiar {
+        margin-bottom: 20px;
+    }
+
+    .btn-copiar p {
+        width: 100%;
+    }
+
+    .resultado {
+        height: auto;
+    }
+
+    .sin-mensaje {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .sin-mensaje img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-left: -20px;
+    }
+
+    .card {
+        margin-top: 0px !important;
+    }
+
+    .card-body div {
+        gap: 1.5rem;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .botones {
+        margin-left: 0px;
+    }
+
+    .btn-encriptar {
+        width: 100%;
+    }
+
+    .btn-encriptar p {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 100%;
+    }
+
+    .btn-desencriptar p {
+        width: 100%;
+    }
+
+    .btn-copiar {
+        margin-bottom: 20px;
+    }
+
+    .btn-copiar p {
+        width: 100%;
+    }
+
+    .resultado {
+        height: auto;
+    }
+
+    .sin-mensaje {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .sin-mensaje img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .card {
+        margin-top: 0px !important;
+    }
+    .card-body div {
+        gap: 1.5rem;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .botones {
+        margin-left: 0px;
+    }
+
+    .btn-encriptar {
+        width: 100%;
+    }
+
+    .btn-encriptar p {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 100%;
+    }
+
+    .btn-desencriptar p {
+        width: 100%;
+    }
+
+    .btn-copiar {
+        margin-bottom: 20px;
+    }
+
+    .btn-copiar p {
+        width: 100%;
+    }
+
+    .resultado {
+        height: auto;
+    }
+
+    .sin-mensaje {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .sin-mensaje img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        margin-top: 0px !important;
+    }
+    .card-body div {
+        gap: 1.5rem;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .botones {
+        margin-left: 0px;
+    }
+
+    .btn-encriptar {
+        width: 100%;
+    }
+
+    .btn-encriptar p {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 100%;
+    }
+
+    .btn-desencriptar p {
+        width: 100%;
+    }
+
+    .btn-copiar {
+        margin-bottom: 20px;
+    }
+
+    .btn-copiar p {
+        width: 100%;
+    }
+
+    .resultado {
+        height: auto;
+    }
+
+    .sin-mensaje {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .sin-mensaje img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .card {
+        margin-top: 0px !important;
+    }
+    .card-body div {
+        gap: 1.5rem;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .botones {
+        margin-left: 0px;
+    }
+
+    .btn-encriptar {
+        width: 100%;
+    }
+
+    .btn-encriptar p {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 100%;
+    }
+
+    .btn-desencriptar p {
+        width: 100%;
+    }
+
+    .btn-copiar {
+        margin-bottom: 20px;
+    }
+
+    .btn-copiar p {
+        width: 100%;
+    }
+
+    .resultado {
+        height: auto;
+    }
+
+    .sin-mensaje {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .sin-mensaje img {
+        display: none;
+    }
+
+    /* .texto_final {
+        height: auto;
+    } */
+}
+
+@media screen and (max-width: 450px) {
+    .card-body div {
+        gap: 1.5rem;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .botones {
+        margin-left: 0px;
+    }
+
+    .btn-encriptar {
+        width: 100%;
+    }
+
+    .btn-desencriptar {
+        width: 100%;
+    }
+
+    .resultado {
+        height: auto;
+    }
+
+    .sin-mensaje {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .sin-mensaje img {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 420px) {
     .card {
         width: 100%;
@@ -290,7 +1213,6 @@ body {
 
     .texto_final {
         width: 279px;
-        height: auto;
         font-size: 24px;
         line-height: 150%;
         color: #495057;
@@ -309,7 +1231,8 @@ body {
         height: auto;
     }
 
-    .btn-encriptar, .btn-desencriptar {
+    .btn-encriptar,
+    .btn-desencriptar {
         width: 363px;
     }
 }
@@ -371,7 +1294,6 @@ body {
 
     .texto_final {
         width: 279px;
-        height: auto;
         font-size: 24px;
         line-height: 150%;
         color: #495057;
@@ -390,21 +1312,23 @@ body {
         height: auto;
     }
 
-    .btn-encriptar, .btn-desencriptar {
+    .btn-encriptar,
+    .btn-desencriptar {
         width: 345px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .card {
-        width: 378px;
+        width: 390px;
     }
 
     .texto {
         width: 320px;
     }
 
-    .btn-encriptar, .btn-desencriptar {
+    .btn-encriptar,
+    .btn-desencriptar {
         width: 320px;
     }
 
