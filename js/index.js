@@ -82,6 +82,7 @@ function copiar() {
     aux.select();
     document.execCommand("copy");
     document.body.removeChild(aux);
+    limpiar();
     Swal.fire({
         icon: 'success',
         text: 'Texto copiado al portapapeles',
@@ -89,4 +90,9 @@ function copiar() {
         showCloseButton: true,
         allowEnterKey: false,
     });
+}
+
+function limpiar() {
+    texto.value = "";
+    texto_final.innerHTML = "";
 }
