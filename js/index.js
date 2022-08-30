@@ -75,6 +75,11 @@ function desencriptar() {
     }
 }
 
+function limpiar() {
+    texto.value = "";
+    texto_final.innerHTML = "";
+}
+
 function copiar() {
     var aux = document.createElement("input");
     aux.setAttribute("value", texto_final.innerHTML);
@@ -90,9 +95,4 @@ function copiar() {
         showCloseButton: true,
         allowEnterKey: false,
     });
-}
-
-function limpiar() {
-    texto.value = "";
-    texto_final.innerHTML = "";
 }
